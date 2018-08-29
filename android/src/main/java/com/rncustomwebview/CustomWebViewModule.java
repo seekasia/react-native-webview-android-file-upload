@@ -38,7 +38,7 @@ public class CustomWebViewModule extends ReactContextBaseJavaModule implements A
 
     // @todo this could be configured from JS
     // Seek Asia Customized. Disable photo & video, only support doc and text resume
-    final String[] DEFAULT_MIME_TYPES = {"text/*", "application/rtf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/pdf", };
+    final String[] DEFAULT_MIME_TYPES = {"text/*", "application/rtf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/pdf" };
 
 
     final String TAKE_PHOTO = "Take a photo…";
